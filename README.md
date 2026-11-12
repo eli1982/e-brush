@@ -6,6 +6,8 @@
 
 Project preview · Open-source release coming soon
 
+![E-Brush sculpting workspace with a torus knot model](assets/e-brush-preview.jpg)
+
 ---
 
 ## What is E-Brush?
