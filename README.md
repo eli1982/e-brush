@@ -15,13 +15,11 @@ Project preview · Open-source release coming soon
 
 E-Brush is a browser-based workspace for working with 3D models and their textures. It brings painting, sculpting, scene setup, and rendering together in one place, so you can move from a model to a finished asset without switching between tools.
 
-About **99% of E-Brush's capabilities are planned to work without running the executable**. A small number of features will require the executable version.
-
 ## Highlights
 
 ### Quad reduction and retopology
 
-Simplify quad meshes, or retopologize a high-density model and transfer its appearance. This example compares a source with 1,994,217 triangles to a retopologized result with 9,901 quads.
+Simplify quad meshes, or retopologize a high-density model and transfer its appearance. This example compares a source with 2 Million triangles to a retopologized result with less than 10,000 quads.
 
 ![A high-density bunny character beside its lower-count retopologized result with transferred appearance](assets/quad-retopology.jpg)
 
@@ -29,7 +27,7 @@ Simplify quad meshes, or retopologize a high-density model and transfer its appe
 
 ### High-fidelity viewport effects
 
-Adjust scene lighting, shadows, and camera settings to create and inspect a look directly in the viewport.
+Adjust scene lighting, shadows, depth of field, and camera settings to create and inspect a look directly in the viewport.
 
 ![A detailed character model with colored lighting in the E-Brush viewport](assets/viewport-scene-settings.jpg)
 
@@ -38,6 +36,12 @@ Adjust scene lighting, shadows, and camera settings to create and inspect a look
 Paint directly on a 3D model or work with its UV texture while viewing the result on the mesh.
 
 ![A character model alongside its editable UV texture in E-Brush](assets/texture-painting.jpg)
+
+### Auto-fix distorted UVs
+
+Detect and repair distorted UVs to improve how textures wrap around a mesh.
+
+![A checker texture before and after Auto Fix UV removes distortion](assets/auto-fix-uv.jpg)
 
 ### Close gaps in meshes
 
@@ -55,7 +59,7 @@ Find and close gaps and holes in a mesh, including issues that can appear in AI-
 
 ## Project status
 
-This repository is an early preview of E-Brush. The source code is being prepared for an open-source release planned for the coming weeks.
+This repository is an early preview of E-Brush. The first open-source release is planned as **v0.1 alpha** in the coming weeks. Expect bugs, incomplete features, and changes as the project develops.
 
 ## Follow the project
 
