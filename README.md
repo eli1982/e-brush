@@ -1,13 +1,10 @@
-<div align="center">
-  <img src="assets/e-brush-logo.png" alt="E-Brush logo" width="112">
+![E-Brush logo](assets/e-brush-icon.png)
 
 # E-BRUSH
 
 **Paint textures, sculpt forms, and explore 3D models in your browser.**
 
 Project preview · Open-source release coming soon
-
-</div>
 
 ---
 
